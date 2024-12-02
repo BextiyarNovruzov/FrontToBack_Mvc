@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bexti\\source\\repos\\FrontToBackMvc\\FrontToBackMvc.csproj": {}
+    "C:\\Users\\bexti\\OneDrive\\Рабочий стол\\CodeAcadamy\\MVC\\FrontToBackMvc\\FrontToBackMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bexti\\source\\repos\\FrontToBackMvc\\FrontToBackMvc.csproj": {
+    "C:\\Users\\bexti\\OneDrive\\Рабочий стол\\CodeAcadamy\\MVC\\FrontToBackMvc\\FrontToBackMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bexti\\source\\repos\\FrontToBackMvc\\FrontToBackMvc.csproj",
+        "projectUniqueName": "C:\\Users\\bexti\\OneDrive\\Рабочий стол\\CodeAcadamy\\MVC\\FrontToBackMvc\\FrontToBackMvc.csproj",
         "projectName": "FrontToBackMvc",
-        "projectPath": "C:\\Users\\bexti\\source\\repos\\FrontToBackMvc\\FrontToBackMvc.csproj",
+        "projectPath": "C:\\Users\\bexti\\OneDrive\\Рабочий стол\\CodeAcadamy\\MVC\\FrontToBackMvc\\FrontToBackMvc.csproj",
         "packagesPath": "C:\\Users\\bexti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bexti\\source\\repos\\FrontToBackMvc\\obj\\",
+        "outputPath": "C:\\Users\\bexti\\OneDrive\\Рабочий стол\\CodeAcadamy\\MVC\\FrontToBackMvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
